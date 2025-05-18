@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+
+/* @theme {
+
+    --primary-color: #4363ee;
+    --seccondry-color:#4895ef;
+    --bg-col:#1b263b;
+    --headind1: 55px;
+    --headind2: 36px;
+    --headind3: 19px;
+} */
+
+body{
+    background-color: #06010e;
+}
