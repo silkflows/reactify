@@ -5,7 +5,7 @@ Reactify is a personal portfolio website for presenting frontend work, selected 
 ## Clone the project
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/silkflows/reactify.git
 cd reactify
 ```
 
