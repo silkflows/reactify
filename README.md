@@ -1,12 +1,42 @@
-# React + Vite
+# Reactify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Reactify is a personal portfolio website for presenting frontend work, selected projects, and developer services. It is built with React and Vite, with Tailwind CSS for styling and React Router for navigation.
 
-Currently, two official plugins are available:
+## Clone the project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+git clone <repository-url>
+cd reactify
+```
 
-## Expanding the ESLint configuration
+## Getting started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Make sure Node.js and pnpm are installed before continuing.
+
+Install the dependencies:
+
+```bash
+pnpm install
+```
+
+Start the development server:
+
+```bash
+pnpm dev
+```
+
+Visit the local URL shown in the terminal to view the portfolio.
+
+## Scripts
+
+- `pnpm dev` - start the development server
+- `pnpm build` - create a production build
+- `pnpm lint` - check the code with ESLint
+- `pnpm preview` - preview the production build
+
+## Pages
+
+- `/` - home page
+- `/projects` - projects
+- `/blog` - blog
+- `/contact` - contact form

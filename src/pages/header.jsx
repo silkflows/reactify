@@ -1,18 +1,4 @@
-import {Link} from "react-router-dom"
-
-import ReactDOM from 'react-dom/client'; // For React 18+ rendering
-import { 
-  useState, // local state managment like input values
-  useEffect, // side Effects like timers,call api and direct dom manipulate
-  createContext,// alternative to props but is best practice than props
-  useContext,// works with createContext() // is used to acces data from parent component
-  useReducer,// to avoid unnecessary rerenders
-  useCallback,useMemo, // sommohe similar and also works // for performance optize
-  useRef, // acces dom elements 
-  Component
-
- } from 'react'
-
+import { Link } from 'react-router-dom';
 
 // let navlinks=()=>{
 //     return(
@@ -113,7 +99,7 @@ py-3 items-center
 
 
 
-<Link className=" font-bold font-sans  capitalize text-white  " to="/">  Iconify</Link>
+<Link className=" font-bold font-sans  capitalize text-white  " to="/">  Reactify</Link>
     </div>
             
         <div 
