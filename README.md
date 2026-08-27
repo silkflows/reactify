@@ -24,19 +24,3 @@ Start the development server:
 ```bash
 pnpm dev
 ```
-
-Visit the local URL shown in the terminal to view the portfolio.
-
-## Scripts
-
-- `pnpm dev` - start the development server
-- `pnpm build` - create a production build
-- `pnpm lint` - check the code with ESLint
-- `pnpm preview` - preview the production build
-
-## Pages
-
-- `/` - home page
-- `/projects` - projects
-- `/blog` - blog
-- `/contact` - contact form
